@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
 project(AP)
-
+ 
 set(CMAKE_CXX_STANDARD 14)
+
+set (GTEST_ROOT "C:/Program Files (x86)/googletest-distribution")
 
 find_package(GTest REQUIRED)
 
